@@ -2,6 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+
+}
+
+
+@font-face {
+  font-family:'Inter Bold';
+  src: url(/public/assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family:'Inter Regular';
+  src: url(/public/assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family:'Inter SemiBold';
+  src: url(/public/assets/fonts/static/Inter-SemiBold.ttf);
 }
 
 
@@ -14,23 +32,59 @@ main {
 }
 
 article {
-  display: grid;
-  place-content: center;
   min-width: 24rem;
   min-height: 32.625rem;
-  background-color: hsl(0, 0%, 20%);
+  background-color: rgb(31, 31, 31);
+  border-radius: 1.125rem;
+  color: #ffff;
 }
-
-
 
 .profile-information {
   display: grid;
-  place-content: center;
   place-items: center;
+  margin: 30px 28px 24px 28px;
 }
 
 .social-account-buttons {
   display: grid;
-  place-content: center;
   place-items: center;
+
 }
+
+/*Profile Information Adjustments*/
+
+.profile-picture-container {
+  padding: 24px;
+}
+
+.profile-picture-jpeg {
+  min-width: 6.25rem;
+  max-height: 6.25rem;
+  border-radius: 100%;
+
+}
+
+.account-name {
+  font-family: 'Inter SemiBold', sans-serif;
+  font-size: 1.476rem;
+  line-height: 150%;
+  
+}
+
+.account-address {
+  font-family: 'Inter Bold', sans-serif;
+  font-size: 0.878rem;
+  line-height: 150%;
+  color: hsl(75, 94%, 57%);
+  
+}
+
+.account-bio {
+  font-family: 'Inter Regular', sans-serif;
+  font-size: 0.878rem;
+  line-height: 150%;
+  
+
+}
+
+
