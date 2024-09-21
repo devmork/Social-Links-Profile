@@ -13,8 +13,6 @@ This is a solution to the [Social Links Profile challenge on Frontend Mentor](ht
 - [Author](#author)
 
 
-
-
 ## Overview
 
 
