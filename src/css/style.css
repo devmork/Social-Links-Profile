@@ -5,3 +5,32 @@
 }
 
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+article {
+  display: grid;
+  place-content: center;
+  min-width: 24rem;
+  min-height: 32.625rem;
+  background-color: hsl(0, 0%, 20%);
+}
+
+
+
+.profile-information {
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+.social-account-buttons {
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
