@@ -31,7 +31,7 @@ This is a solution to the [Social Links Profile challenge on Frontend Mentor](ht
 
 - Semantic HTML5 
 - CSS Custom Properties
-- Flexbox
+- CSS Grid
 
 
 ### What I learned
