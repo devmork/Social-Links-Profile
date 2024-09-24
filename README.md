@@ -18,7 +18,7 @@ This is a solution to the [Social Links Profile challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![]()
+![](./public/assets/images/screen-shot.png)
 
 ### Links
 

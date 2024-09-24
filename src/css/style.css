@@ -123,9 +123,5 @@ article {
   color: hsl(0, 0%, 8%);
 }
 
-/* Mobile Adjustment */
 
-@media (max-width: 345px) {
-  
-}
 
