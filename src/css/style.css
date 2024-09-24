@@ -118,4 +118,14 @@ article {
 }
 
 
+.social-btn-list:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+/* Mobile Adjustment */
+
+@media (max-width: 345px) {
+  
+}
 
